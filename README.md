@@ -20,6 +20,8 @@ Monstercat Reddit CSS
 
 **flairs.css**
 
+**other.css*
+
 
 ## Notes
 
@@ -35,3 +37,4 @@ Monstercat Reddit CSS
 
 **flairs.css** is not my responsibility. Discuss this with /u/dyl__ on reddit. 
 
+**other.css** contains the code I don't see a need for referencing in the future. Additionally, it contains code that changes on a daily basis. This might possibly be sorted in the future, but doing so would be completely unnecesary 
