@@ -1,0 +1,42 @@
+/* sidebar image */
+.side::before {
+    content: "";
+    width: 320px;
+    height: 223px;
+    display: block;
+    background-image: url(%%sidebarimg4%%);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 220px;
+    border: dashed 2px black;
+    right: 30px;
+    box-shadow: inset 0 0 0px 2px white
+}
+/* padding for links */
+div.link.thing {
+    padding: 15px 13px!Important
+}
+/* fixes some stupid res coloring issues */
+.res .RES-keyNav-activeElement {
+    background-color: transparent!important;
+    box-shadow: none!important
+}
+/* golden arrow on selected post/comment for res */
+.RES-keyNav-activeElement:before {
+    content: "";
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    margin-left: -165px;
+    display: block;
+    width: 50px;
+    height: 0px;
+    border-left: solid 26px #716633;
+    border-top: solid 30px transparent;
+    border-bottom: solid 30px transparent;
+    margin-top: -4px
+}
+/* make stickies look subtly fancy */
+.listing-page .sitetable .stickied.link {
+    border-radius: 2px!important;
+    border: 2px dashed transparent
+}
